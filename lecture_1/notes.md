@@ -36,5 +36,9 @@ void main() {
 
 ### Classes
 ```java
-class main
+class main {
+    void main() {
+        
+    }
+}
 ```
