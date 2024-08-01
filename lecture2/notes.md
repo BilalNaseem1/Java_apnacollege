@@ -24,4 +24,33 @@
 <img src="image-1.png" alt="Example Image" width="300" height="300">
 </center>
 
-closed on 28 min
+## User input
+- In order to read data from the keyboard, Java has a `Scanner` class.
+- `System.in` reads from the keyboard.
+- Scanner class has a lot of methods to read
+- `int a = sc.nextInt();` waits for the user to enter an integer. When the user types a number and presses Enter, that number is read and stored in the variable a.
+
+```java
+import java.util.Scanner;
+
+public class main {
+    public static void main(String[] args) {
+                System.out.println("Taking input from the user");
+        Scanner sc = new Scanner(System.in); // making a new object using scanner class (new instance)
+
+        System.out.println("Enter number 1");
+        int a = sc.nextInt();
+        // System.out.println("You entered " + a);
+
+        System.out.println("Enter number 2");
+        int b = sc.nextInt();
+
+        System.out.println("Sum is " + (a + b));
+
+        System.out.println("Enter your name");
+        String name = sc.next();
+        System.out.println("Hello " + name);
+
+    }
+}
+```
