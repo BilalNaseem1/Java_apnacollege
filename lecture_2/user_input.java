@@ -1,4 +1,4 @@
-package lecture2;
+package lecture_2;
 
 import java.util.*;
 

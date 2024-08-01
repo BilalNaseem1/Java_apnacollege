@@ -35,7 +35,7 @@ import java.util.Scanner;
 
 public class main {
     public static void main(String[] args) {
-                System.out.println("Taking input from the user");
+        System.out.println("Taking input from the user");
         Scanner sc = new Scanner(System.in); // making a new object using scanner class (new instance)
 
         System.out.println("Enter number 1");
